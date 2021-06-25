@@ -1,6 +1,6 @@
 # Youtube-Mp3-Downloader
  
-A simple command line based youtube mp3 downloader.
+A simple command line based youtube mp3 downloader I've made for personal use.
 
 ## Requirements
 The downloader uses pytube and moviepy python packages so you need to install them.
