@@ -20,7 +20,7 @@ DOWNLOAD_PATH = "D:\\Music"
 ```
 on the 7. line
 
-## 404 Not found error
+## 404 Not Found error
 This error happens when the pytube package is not up to date.
 To fix this you have to upgrade the package.
 
