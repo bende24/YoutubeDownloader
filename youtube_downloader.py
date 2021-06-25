@@ -15,7 +15,7 @@ def remove_non_alphabetic_characters(text):
 def download_audio(yt, title):
 	yt.streams.filter().first().download(DOWNLOAD_PATH, title)
 
-print('Type url (type q to quit)')
+print('Type url (type q to quit). Download path: ' + DOWNLOAD_PATH)
 for line in sys.stdin:
 	if 'q' == line.strip() or '' == line.strip():
 		break
